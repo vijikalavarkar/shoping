@@ -1,0 +1,88 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4; /* Light gray background */
+  color: #333; /* Dark gray text */
+}
+
+header {
+  background-color: #333; /* Dark header */
+  color: #fff; /* White text */
+  padding: 20px;
+  text-align: center;
+}
+
+nav {
+  background-color: #eee; /* Light gray navigation */
+  padding: 10px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center; /* Center the navigation items */
+}
+
+nav li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  padding: 5px 10px;
+  border-radius: 5px; /* Slightly rounded corners */
+  transition: background-color 0.3s, color 0.3s; /* Smooth transitions */
+}
+
+nav a:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+
+main {
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Responsive grid */
+  grid-gap: 20px;
+}
+
+.product {
+  border: 1px solid #ddd; /* Light border */
+  padding: 15px;
+  border-radius: 8px; /* Rounded corners for products */
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);  /* Subtle shadow */
+  background-color: white; /* White product background */
+  transition: transform 0.2s; /* Smooth scaling on hover */
+}
+.product:hover {
+  transform: scale(1.05); /* Scale up slightly on hover */
+
+}
+
+.product img {
+  max-width: 100%;
+  height: auto;
+  display: block; /* Makes the image a block element */
+  margin: 0 auto 10px; /* Centers the image */
+  border-radius: 4px;
+}
+
+.product h2 {
+  margin-top: 0; /* Remove top margin */
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  position: relative; /* Needed for sticky footer */
+  bottom: 0;
+  width: 100%;
+}
