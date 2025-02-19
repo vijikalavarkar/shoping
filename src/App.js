@@ -4,7 +4,7 @@ function App() {
   return (
     <>
       <header>
-        <h1>Shopping.com</h1>
+        <h1>Sample Shopping App</h1>
       </header>
 
     <nav>
