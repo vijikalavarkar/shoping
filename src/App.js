@@ -5,6 +5,7 @@ function App() {
     <>
       <header>
         <h1>Unbeatable Deals on Everything You Need</h1>
+        <h4>Faster and Easier</h4>
       </header>
 
     <nav>
