@@ -4,7 +4,7 @@ function App() {
   return (
     <>
       <header>
-        <h1>ShopperHome.in</h1>
+        <h1>Unbeatable Deals on Everything You Need</h1>
       </header>
 
     <nav>
